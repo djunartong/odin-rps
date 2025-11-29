@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    height: 30px;
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    justify-content: center;
+}
+
+.win {
+    background-color: greenyellow;
+}
+
+.lose {
+    background-color: red;
+    color: white;
+}
